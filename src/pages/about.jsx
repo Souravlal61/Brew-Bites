@@ -1,10 +1,11 @@
-import Res from "./res";
-import Team from "./team";
+import About_res from "./aboutsection1";
+import Team from "./aboutsection2";
+
 
 export default function About(){
     return(
         <>
-        <Res></Res>
+        <About_res></About_res>
         <Team></Team>
         </>
     )

@@ -23,7 +23,7 @@ const features = [
   },
 ]
 
-export default function Res() {
+export default function About_res() {
   return (
     
     <div className="overflow-hidden bg-white py-24 sm:py-32">
