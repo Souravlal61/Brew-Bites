@@ -1,4 +1,7 @@
-
+import { CContainer } from "@coreui/react"
+import { CForm } from "@coreui/react"
+import { CFormInput } from "@coreui/react"
+import { CButton } from "@coreui/react"
 import { Dropdown } from "flowbite-react"
 import { Navbar } from "flowbite-react"
 import { Avatar } from "flowbite-react"
@@ -76,7 +79,15 @@ export default function Flownavbar(){
       Carrer  </Link>
     </Navbar.Link>
     
-
+    <CContainer fluid>
+    
+    <CForm className="d-flex">
+      <CFormInput type="search" className="me-2" placeholder="Search" />
+      <CButton type="submit" color="success" variant="outline">
+        Search
+      </CButton>
+    </CForm>
+  </CContainer>
 
   </Navbar.Collapse>
 </Navbar>

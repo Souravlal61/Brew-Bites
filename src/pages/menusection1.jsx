@@ -1,7 +1,7 @@
 export default function Sec(){
     return(
         <>
-        <section class="bg-white dark:bg-gray-900">
+        <section class="bg-cyan-400 dark:bg-gray-900">
    
         <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
         <img class="w-full dark:hidden"src="image1.jpg" alt="dashboard image"/>

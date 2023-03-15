@@ -16,28 +16,28 @@
 const products = [
   {
     id: 1,
-    name: 'Earthen Bottle',
+    name: 'Butter Chicken',
     href: '#',
     imageSrc: 'image3.jpg',
     imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
   },
   {
     id: 2,
-    name: 'Nomad Tumbler',
+    name: 'Choumin',
     href: '#',
     imageSrc: 'image2.jpg',
     imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
   },
   {
     id: 3,
-    name: 'Focus Paper Refill',
+    name: 'Panner Tika',
     href: '#',
     imageSrc: 'image4.jpg',
     imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
   },
   {
     id: 4,
-    name: 'Machined Mechanical Pencil',
+    name: 'French Fries',
     href: '#',
     imageSrc: 'image5.jpg',
     imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
