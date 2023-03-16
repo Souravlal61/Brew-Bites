@@ -6,7 +6,7 @@ export default function Team(){
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
       <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
-          <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">Explore the whole collection of open-source web components and elements built with the utility classes from Tailwind</p>
+          <p class="font-light text-gray-500 lg:mb-16 sm:text-xl dark:text-gray-400">We have a great team who are continuing to take our restaurant on the path of growth.</p>
       </div> 
       <div class="grid gap-8 mb-6 lg:mb-16 md:grid-cols-2">
           <div class="items-center bg-gray-50 rounded-lg shadow sm:flex dark:bg-gray-800 dark:border-gray-700">
@@ -149,14 +149,17 @@ export default function Team(){
   </div>
 </section>
 
+<section class=" bg-sky-200 dark:bg-gray-900">
+<p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><center><u>Our Growth</u></center></p>
 
 
-<section class="bg-white dark:bg-gray-900">
     <div class="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:py-16 lg:px-6">
         <div class="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">We didn't reinvent the wheel</h2>
-            <p class="mb-4">We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need. Small enough to be simple and quick, but big enough to deliver the scope you want at the pace you need.</p>
-            <p>We are strategists, designers and developers. Innovators and problem solvers. Small enough to be simple and quick.</p>
+            <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Growth in India</h2>
+            <p class="mb-4">
+The Brew & Bites is one of the fastest growing modern casual dining chain of restaurants by Sourav Lal that exists to delight passionate different cuisine lovers. Walk in and place your order and sit back and relax and soak in our modern to the age ambience as you wait for your order to be freshly prepared. Brew & Bites Offers a unique Desi twist to a different cuisine that every Indian can relate to. All our food is 100% made to order 100% fresh that tantalise the taste buds and excite your senses.
+The Brew & Bites , India is marching towards 100+ opened stores by the end of 2022 and be India’s largest homegrown brand by Dec 2023</p>
+            
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
             <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1"/>
@@ -165,21 +168,21 @@ export default function Team(){
     </div>
 </section>
 
-
+              
 <section class="bg-white dark:bg-gray-900">
   <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
       <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
           <div class="flex flex-col items-center justify-center">
-              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">73M+</dt>
-              <dd class="font-light text-gray-500 dark:text-gray-400">developers</dd>
+              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">100+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">Outlets</dd>
           </div>
           <div class="flex flex-col items-center justify-center">
-              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">1B+</dt>
-              <dd class="font-light text-gray-500 dark:text-gray-400">contributors</dd>
+              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">40+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">Cities</dd>
           </div>
           <div class="flex flex-col items-center justify-center">
-              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">4M+</dt>
-              <dd class="font-light text-gray-500 dark:text-gray-400">organizations</dd>
+              <dt class="mb-2 text-3xl md:text-4xl font-extrabold">10,00000+</dt>
+              <dd class="font-light text-gray-500 dark:text-gray-400">Orders</dd>
           </div>
       </dl>
   </div>

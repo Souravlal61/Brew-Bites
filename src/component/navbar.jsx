@@ -51,14 +51,14 @@ export default function Flownavbar(){
     <Navbar.Toggle />
   </div>
   <Navbar.Collapse>
-    <Navbar.Link
-      href="/navbars"
-      active={false}
-    >
+  <Navbar.Link>
+    
+    
         <Link to="/home">
       Home
       </Link>
     </Navbar.Link>
+     
     <Navbar.Link>
     <Link to="/about">
       About  </Link>
@@ -72,8 +72,8 @@ export default function Flownavbar(){
       Reservation  </Link>
     </Navbar.Link>
     <Navbar.Link>
-    <Link to="/gallery">
-      Gallery  </Link>
+    <Link to="/franchise">
+      Franchise </Link>
     </Navbar.Link>
     <Navbar.Link>
     <Link to="/carrer">
