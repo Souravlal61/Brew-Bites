@@ -13,34 +13,35 @@
   }
   ```
 */
+
 const products = [
   {
     id: 1,
     name: 'Butter Chicken',
     href: '#',
     imageSrc: 'image3.jpg',
-    imageAlt: 'Tall slender porcelain bottle with natural clay textured body and cork stopper.',
+    imageAlt: 'Butter Chicken',
   },
   {
     id: 2,
     name: 'Choumin',
     href: '#',
     imageSrc: 'image2.jpg',
-    imageAlt: 'Olive drab green insulated bottle with flared screw lid and flat top.',
+    imageAlt: 'Choumin',
   },
   {
     id: 3,
     name: 'Panner Tika',
     href: '#',
     imageSrc: 'image4.jpg',
-    imageAlt: 'Person using a pen to cross a task off a productivity paper card.',
+    imageAlt: 'Panner Tika',
   },
   {
     id: 4,
     name: 'French Fries',
     href: '#',
     imageSrc: 'image5.jpg',
-    imageAlt: 'Hand holding black machined steel mechanical pencil with brass tip and top.',
+    imageAlt: 'French Fries',
   },
   // More products...
 ]

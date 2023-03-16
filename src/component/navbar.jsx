@@ -6,6 +6,7 @@ import { Dropdown } from "flowbite-react"
 import { Navbar } from "flowbite-react"
 import { Avatar } from "flowbite-react"
 import { Link } from "react-router-dom"
+import logo from "../image/logo.jpg"
 export default function Flownavbar(){
     return(
         <Navbar
@@ -14,7 +15,7 @@ export default function Flownavbar(){
 >
   <Navbar.Brand>
     <img
-      src="logo.jpg"
+      src={logo}
       className="mr-3 h-6 sm:h-9"
       alt="logo"
     />

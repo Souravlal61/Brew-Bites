@@ -26,7 +26,7 @@ export default function Flowcrousel(){
       alt="..."
     />
   </Carousel>
-  <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"><center>Hundreds of flavors under one roof</center></h2>
+  
 
 </div>
         </>

@@ -22,7 +22,7 @@ const features = [
     icon: ServerIcon,
   },
 ]
-
+import image from "../image/image.jpg"
 export default function About_res() {
   return (
     
@@ -51,7 +51,7 @@ export default function About_res() {
             </div>
           </div>
           <img
-            src="image.jpg"
+            src={image}
             alt="Product screenshot"
             className="w-[48rem] max-w-none rounded-xl shadow-xl ring-1 ring-gray-400/10 sm:w-[57rem] md:-ml-4 lg:-ml-0"
             width={2432}
