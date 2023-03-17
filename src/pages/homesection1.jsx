@@ -1,29 +1,34 @@
 import { Carousel } from "flowbite-react"
-
+import image21 from"../image/image21.jpg"
+import image22 from"../image/image22.jpg"
+import image23 from"../image/image23.jpg"
+import image24 from"../image/image24.jpg"
+import image25 from"../image/image25.jpg"
 export default function Flowcrousel(){
     return(
         <>
         <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
   <Carousel slideInterval={5000}>
     <img
-      src="https://flowbite.com/docs/images/carousel/carousel-1.svg"
-      alt="..."
+      src={image21}
+      alt="image"
     />
     <img
-      src="https://flowbite.com/docs/images/carousel/carousel-2.svg"
-      alt="..."
+      src={image22}
+      alt="image"
+      
     />
     <img
-      src="https://flowbite.com/docs/images/carousel/carousel-3.svg"
-      alt="..."
+      src={image23}
+      alt="image"
     />
     <img
-      src="https://flowbite.com/docs/images/carousel/carousel-4.svg"
-      alt="..."
+      src={image24}
+      alt="image"
     />
     <img
-      src="https://flowbite.com/docs/images/carousel/carousel-5.svg"
-      alt="..."
+      src={image25}
+      alt="image"
     />
   </Carousel>
   

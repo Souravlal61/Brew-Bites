@@ -1,3 +1,6 @@
+import image26 from "../image/image26.jpg"
+import image27 from "../image/image27.jpg"
+import image28 from "../image/image28.jpg"
 export default function Items(){
     return(
         <>
@@ -6,11 +9,11 @@ export default function Items(){
           
 <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all m-0.5 ease-in-out">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src="image21.jpg" alt="product image" />
+        <img class="p-8 rounded-t-lg" src={image26} alt="Roll with Extra cheese" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
-            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Roll with extra cheese.</h5>
         </a>
         <div class="flex items-center mt-2.5 mb-5">
             <svg aria-hidden="true" class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -28,11 +31,11 @@ export default function Items(){
 
 <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all m-0.5 ease-in-out">
     <a href="#">
-        <img class="p-8 rounded-t-lg transition-all m-0.5 ease-in-out" src="image22.jpg" alt="product image" />
+        <img class="p-8 rounded-t-lg transition-all m-0.5 ease-in-out" src={image27} alt="South indian" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
-            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">South indian Cusine</h5>
         </a>
         <div class="flex items-center mt-2.5 mb-5">
             <svg aria-hidden="true" class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
@@ -50,11 +53,11 @@ export default function Items(){
 
 <div class="w-full max-w-sm bg-white border border-gray-200 rounded-lg shadow dark:bg-gray-800 dark:border-gray-700 transition-all m-0.5 ease-in-out">
     <a href="#">
-        <img class="p-8 rounded-t-lg" src="image11.jpg" alt="product image" />
+        <img class="p-8 rounded-t-lg h-72" src={image28} alt="Chinese Food" />
     </a>
     <div class="px-5 pb-5">
         <a href="#">
-            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Apple Watch Series 7 GPS, Aluminium Case, Starlight Sport</h5>
+            <h5 class="text-xl font-semibold tracking-tight text-gray-900 dark:text-white">Chinese Food</h5>
         </a>
         <div class="flex items-center mt-2.5 mb-5">
             <svg aria-hidden="true" class="w-5 h-5 text-yellow-300" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><title>First star</title><path d="M9.049 2.927c.3-.921 1.603-.921 1.902 0l1.07 3.292a1 1 0 00.95.69h3.462c.969 0 1.371 1.24.588 1.81l-2.8 2.034a1 1 0 00-.364 1.118l1.07 3.292c.3.921-.755 1.688-1.54 1.118l-2.8-2.034a1 1 0 00-1.175 0l-2.8 2.034c-.784.57-1.838-.197-1.539-1.118l1.07-3.292a1 1 0 00-.364-1.118L2.98 8.72c-.783-.57-.38-1.81.588-1.81h3.461a1 1 0 00.951-.69l1.07-3.292z"></path></svg>
