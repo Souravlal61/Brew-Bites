@@ -2,7 +2,7 @@
 export default function Team(){
     return(
         <>
-        <section class="bg-white dark:bg-gray-900">
+        <section class="bg-orange-50 dark:bg-gray-900">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
       <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
@@ -147,9 +147,9 @@ export default function Team(){
           </div>  
       </div>  
   </div>
-</section>
 
-<section class=" bg-sky-200 dark:bg-gray-900">
+
+<section class=" bg-orange-50 dark:bg-gray-900">
 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><center><u>Our Growth</u></center></p>
 
 
@@ -169,7 +169,7 @@ The Brew & Bites , India is marching towards 100+ opened stores by the end of 20
 </section>
 
               
-<section class="bg-white dark:bg-gray-900">
+<section class="dark:bg-gray-900">
   <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
       <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
           <div class="flex flex-col items-center justify-center">
@@ -186,6 +186,7 @@ The Brew & Bites , India is marching towards 100+ opened stores by the end of 20
           </div>
       </dl>
   </div>
+</section>
 </section>
         </>
     )
