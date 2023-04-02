@@ -72,13 +72,17 @@ export default function Flownavbar(){
       Reservation  </Link>
     </Navbar.Link>
     <Navbar.Link>
-    <Link to="/franchise">
-      Franchise </Link>
-    </Navbar.Link>
-    <Navbar.Link>
     <Link to="/carrer">
-      Carrer  </Link>
+      Carrer </Link>
     </Navbar.Link>
+  
+    <Navbar.Link>
+    <Link to="/cart">
+      Cart</Link>
+    </Navbar.Link>
+    
+
+    
     
     <CContainer fluid>
     

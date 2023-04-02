@@ -7,12 +7,15 @@ import { BrowserRouter, Routes, Route} from 'react-router-dom'
 import Carrer from './pages/carrer'
 import Menu from './pages/menu'
 import Home from './pages/home'
+import Cart from './pages/cart'
+import {CartProvider} from 'react-use-cart'
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
    <>
+   <CartProvider>
    <BrowserRouter>
    <Flownavbar></Flownavbar>
    <Routes>
@@ -20,8 +23,12 @@ function App() {
    <Route path="/menu" element={<Menu/>}></Route>
    <Route path="/about" element={<About/>}></Route>
    <Route path="/carrer" element={<Carrer/>}></Route>
+   
+   <Route path="/cart" element={<Cart/>}></Route>
+   
    </Routes>
    </BrowserRouter>
+   </CartProvider>
    <Flowfooter></Flowfooter></>
   )
 }

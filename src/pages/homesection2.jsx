@@ -1,45 +1,50 @@
-
+import image29 from '../image/image29.jpg'
+import image30 from '../image/image30.jpg'
+import image32 from '../image/image32.jpg'
+import image35 from '../image/image35.jpg'
+import image36 from '../image/image36.jpg'
+import image37 from '../image/image37.jpg'
 
 const callouts = [
   {
     name: 'Cup Cakes',
     description: 'Cup Cakes with multiple flavours.',
-    imageSrc: "image29.jpg",
+    imageSrc: image29,
     imageAlt: 'Cup Cakes.',
     href: '#',
   },
   {
     name: 'Rolls',
     description: 'Special Rolls with different flavours.',
-    imageSrc: 'image30.jpg',
+    imageSrc: image30,
     imageAlt: 'Rolls.',
     href: '#',
   },
   {
     name: 'Pizza',
     description: 'Piza with extra Cheese',
-    imageSrc: 'image32.jpg',
+    imageSrc: image32,
     imageAlt: 'Pizza.',
     href: '#',
   },
   {
     name: 'Burgers',
     description: 'Burger with Panner & Chicken patties or with Different Flavours..',
-    imageSrc: "image35.jpg",
+    imageSrc: image35,
     imageAlt: 'Burgers.',
     href: '#',
   },
   {
     name: 'Chilli Chicken',
     description: 'Chilli Chicken with Tandoori Roti.',
-    imageSrc: "image36.jpg",
+    imageSrc: image36,
     imageAlt: 'Chilli Chicken.',
     href: '#',
   },
   {
     name: 'Naan with Panner',
     description: 'Naan with Panner and salad.',
-    imageSrc: "image37.jpg",
+    imageSrc: image37,
     imageAlt: 'Naan with Panner.',
     href: '#',
   },

@@ -13,9 +13,9 @@ const features = [
   
     description:'1. To drive innovation & open new cafes specially in Tier 2 & Tier 3 cities'
   },
-  {
+   {
   
-    description: '2.To provide the coustomers something Special.'
+   id: '2.To provide the coustomers something Special.'
   },
  
 ]

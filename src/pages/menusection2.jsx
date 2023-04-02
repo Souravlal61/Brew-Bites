@@ -13,13 +13,14 @@
   }
   ```
 */
+import image3 from '../image/image3.jpg'
 
 const products = [
   {
     id: 1,
     name: 'Butter Chicken',
     href: '#',
-    imageSrc: 'image3.jpg',
+    imageSrc: {image3},
     imageAlt: 'Butter Chicken',
   },
   {
