@@ -11,7 +11,7 @@ import Cart from './pages/cart'
 import {CartProvider} from 'react-use-cart'
 
 function App() {
-  const [count, setCount] = useState(0)
+  // const [count, setCount] = useState(0)
 
   return (
    <>
