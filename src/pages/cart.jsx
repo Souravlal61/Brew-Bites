@@ -41,7 +41,7 @@ const Cart = () => {
                                 <button 
                                 className=" bg-cyan-900 hover:bg-cyan-400 text-blue-50 rounded-lg w-28 m-6"
                                 onClick={()=>removeItem(items.id)}
-                                >Remove Item</button>
+                                >Remove</button>
                             </td>
                             </tr>)
                         })}

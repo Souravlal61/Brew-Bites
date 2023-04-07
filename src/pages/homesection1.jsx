@@ -1,39 +1,21 @@
-import { Carousel } from "flowbite-react"
-import image21 from"../image/image21.jpg"
-import image22 from"../image/image22.jpg"
-import image23 from"../image/image23.jpg"
-import image24 from"../image/image24.jpg"
-import image25 from"../image/image25.jpg"
+
+import banner6 from"../image/banner6.jpg"
+
 export default function Flowcrousel(){
     return(
         <>
-        <div className="h-56 sm:h-64 xl:h-80 2xl:h-96">
-  <Carousel slideInterval={5000}>
+          <div className="flex container">
+      <h1 className=" mt-40 ml-28 font-bold text-4x1 text-center text-lg text-white sm:text-slate-900 md:text-2xl dark:sm:text-white">For the love of Delicious food .</h1>
+      {/* <h1 className="ml-28 font-bold text-4x1 text-center mt-40 text-lg text-white sm:text-slate-900 md:text-2xl dark:sm:text-white">We Serves that you want. Good Food Good Health</h1> */}
+   
     <img
-      src={image21}
+      src={banner6}
       alt="image"
-    />
-    <img
-      src={image22}
-      alt="image"
-      
-    />
-    <img
-      src={image23}
-      alt="image"
-    />
-    <img
-      src={image24}
-      alt="image"
-    />
-    <img
-      src={image25}
-      alt="image"
-    />
-  </Carousel>
-  
-
-</div>
+      className="mt-0 ml-auto h-96 shadow-sm-light bg-white container">
+     
+    </img>
+ 
+    </div> 
         </>
     )
 }

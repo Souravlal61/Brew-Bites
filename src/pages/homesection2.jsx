@@ -60,12 +60,11 @@ export default function Items() {
   return (
 
    <>
-
-    <div className="bg-orange-50">
+    <div className="bg-white">
       <div className="mx-auto max-w-8xl px-4 sm:px-6 lg:px-8">
         <div className="mx-auto max-w-2xl py-16 sm:py-24 lg:max-w-none lg:py-32">
-        <h2 className="text-4xl font-bold bg-orange-50"><center>Our Menu Items</center></h2>
-        <h2 className="text-3xl font-bold bg-orange-50"><center>Feel the joy of mouthwatering food.</center></h2>
+        <h2 className="text-4xl font-bold bg-white"><center>Our Menu Items</center></h2>
+        <h2 className="text-3xl font-bold bg-white"><center>Feel the joy of mouthwatering food.</center></h2>
         <div className="mt-6 space-y-12 lg:grid lg:grid-cols-3 lg:gap-x-6 lg:space-y-0">
             {callouts.map((callout) => (
               <div key={callout.name} className="group relative">
@@ -91,8 +90,8 @@ export default function Items() {
     </div>
 
 {/*OUR SERVICES */}
-<h2 className="text-4xl font-bold bg-orange-50"><center><u>Services.</u></center></h2>
-    <div className="bg-orange-50 py-24 sm:py-20">
+<h2 className="text-4xl font-bold bg-white"><center><u>Services.</u></center></h2>
+    <div className="bg-white py-24 sm:py-20">
     
 <div className="mx-auto max-w-8xl px-6 lg:px-8">
   <dl className="grid grid-cols-1 gap-y-16 gap-x-8 text-center lg:grid-cols-3">

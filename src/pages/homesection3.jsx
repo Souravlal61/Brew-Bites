@@ -4,8 +4,8 @@ export default function Timing() {
     return (
     
        
-      <div className="bg-orange-50">
-          <h2 className="text-4xl font-bold bg-orange-50"><center>Contact Us!</center></h2>
+      <div className="bg-white">
+          <h2 className="text-4xl font-bold bg-white"><center>Contact Us!</center></h2>
         <div className="mx-auto max-w-8xl py-20 sm:px-2 sm:py-8 lg:px-8">
           <div className="relative isolate overflow-hidden bg-gray-900 px-6 pt-24 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
             <svg

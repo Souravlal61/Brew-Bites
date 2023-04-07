@@ -59,6 +59,60 @@ const data = {
             desc: 'pta hai',
             price: 50,
             
+        },
+
+        {
+            id: 7,
+            img: image24,
+            title: 'pta nhi',
+            desc: 'pta hai',
+            price: 50,
+            
+        },
+
+        {
+            id: 8,
+            img: image24,
+            title: 'pta nhi',
+            desc: 'pta hai',
+            price: 50,
+            
+        },
+
+        {
+            id: 9,
+            img: image24,
+            title: 'pta nhi',
+            desc: 'pta hai',
+            price: 50,
+            
+        },
+
+        {
+            id: 10,
+            img: image24,
+            title: 'pta nhi',
+            desc: 'pta hai',
+            price: 50,
+            
+        },
+
+        {
+            id:11,
+            img: image24,
+            title: 'pta nhi',
+            desc: 'pta hai',
+            price: 50,
+            
+        },
+
+        {
+            id: 12,
+            img: image24,
+            title: 'pta nhi',
+            desc: 'pta hai',
+            price: 50,
+            
         }
    ],
     };

@@ -1,4 +1,5 @@
-
+import Growth1 from '../image/Growth1.jpg'
+import Growth2 from '../image/Growth2.jpg'
 export default function Team(){
     return(
         <>
@@ -15,10 +16,10 @@ export default function Team(){
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Bonnie Green</a>
+                      <a href="#">Suraj Lal</a>
                   </h3>
-                  <span class="text-gray-500 dark:text-gray-400">CEO & Web Developer</span>
-                  <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Bonnie drives the technical strategy of the flowbite platform and brand.</p>
+                  <span class="text-gray-500 dark:text-gray-400">Co - founder</span>
+                  <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Suraj drives the teachnical functionality and payment system.</p>
                   <ul class="flex space-x-4 sm:mt-0">
                       <li>
                           <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -49,10 +50,10 @@ export default function Team(){
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Jese Leos</a>
+                      <a href="#">Rahul Deva</a>
                   </h3>
-                  <span class="text-gray-500 dark:text-gray-400">CTO</span>
-                  <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Jese drives the technical strategy of the flowbite platform and brand.</p>
+                  <span class="text-gray-500 dark:text-gray-400">Senior Chef</span>
+                  <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Rahul drives the kitchen Management system and menu management.</p>
                   <ul class="flex space-x-4 sm:mt-0">
                       <li>
                           <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -83,10 +84,10 @@ export default function Team(){
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Michael Gough</a>
+                      <a href="#">Ravider Singh</a>
                   </h3>
-                  <span class="text-gray-500 dark:text-gray-400">Senior Front-end Developer</span>
-                  <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Michael drives the technical strategy of the flowbite platform and brand.</p>
+                  <span class="text-gray-500 dark:text-gray-400">Chef</span>
+                  <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Ravinder manages Company accounts and funds.</p>
                   <ul class="flex space-x-4 sm:mt-0">
                       <li>
                           <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -117,10 +118,10 @@ export default function Team(){
               </a>
               <div class="p-5">
                   <h3 class="text-xl font-bold tracking-tight text-gray-900 dark:text-white">
-                      <a href="#">Lana Byrd</a>
+                      <a href="#">Shyam Kumar</a>
                   </h3>
-                  <span class="text-gray-500 dark:text-gray-400">Marketing & Sale</span>
-                  <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Lana drives the technical strategy of the flowbite platform and brand.</p>
+                  <span class="text-gray-500 dark:text-gray-400">Chef</span>
+                  <p class="mt-3 mb-4 font-light text-gray-500 dark:text-gray-400">Shyam manages the Coustomers queries regarding food and manages kitchen area.</p>
                   <ul class="flex space-x-4 sm:mt-0">
                       <li>
                           <a href="#" class="text-gray-500 hover:text-gray-900 dark:hover:text-white">
@@ -162,8 +163,8 @@ The Brew & Bites , India is marching towards 100+ opened stores by the end of 20
             
         </div>
         <div class="grid grid-cols-2 gap-4 mt-8">
-            <img class="w-full rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-2.png" alt="office content 1"/>
-            <img class="mt-4 w-full lg:mt-10 rounded-lg" src="https://flowbite.s3.amazonaws.com/blocks/marketing-ui/content/office-long-1.png" alt="office content 2"/>
+            <img class="w-full rounded-lg" src={Growth1} alt="office content 1"/>
+            <img class="mt-4 w-full lg:mt-10 rounded-lg" src={Growth2} alt="office content 2"/>
         </div>
     </div>
 </section>

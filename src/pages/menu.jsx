@@ -18,7 +18,7 @@ export default function Menu(){
 </div>
 </section>
 
-        <h1 className='text-center mt-4 text-2xl font-bold text-gray-900 dark:text-white'>Our Menu</h1>
+        <h1 className='text-center mt-4 text-4xl font-bold text-gray-900 dark:text-white'>Our Menu</h1>
         <section className='py-4 container'>
             <div className='row justify-center'>
                 {data.productData.map((items,index)=>{
