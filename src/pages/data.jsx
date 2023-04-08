@@ -1,4 +1,4 @@
-import image6 from '../image/image6.jpg'
+
 import image7 from '../image/image7.jpg'
 import image21 from '../image/image21.jpg'
 import image22 from '../image/image22.jpg'
@@ -9,7 +9,7 @@ const data = {
     productData:[
         {
             id: 1,
-            img: image6,
+            img: image7,
             title: 'pta nhi',
             desc: 'pta hai',
             price: 50,
