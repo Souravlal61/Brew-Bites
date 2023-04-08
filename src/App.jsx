@@ -1,5 +1,4 @@
 
-import { useState } from 'react'
 import Flowfooter from './component/footer'
 import Flownavbar from './component/navbar'
 import About from './pages/about'
@@ -9,6 +8,8 @@ import Menu from './pages/menu'
 import Home from './pages/home'
 import Cart from './pages/cart'
 import {CartProvider} from 'react-use-cart'
+import Franchise from './pages/franchise'
+
 
 function App() {
   // const [count, setCount] = useState(0)
@@ -23,7 +24,7 @@ function App() {
    <Route path="/menu" element={<Menu/>}></Route>
    <Route path="/about" element={<About/>}></Route>
    <Route path="/carrer" element={<Carrer/>}></Route>
-   
+   <Route path="/franchise" element={<Franchise/>}></Route>
    <Route path="/cart" element={<Cart/>}></Route>
    
    </Routes>

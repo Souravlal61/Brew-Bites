@@ -42,8 +42,8 @@ export default function Flownavbar(){
       Menu  </Link>
     </Navbar.Link>
     <Navbar.Link>
-    <Link to="/reservation">
-      Reservation  </Link>
+    <Link to="/franchise">
+      Franchise</Link>
     </Navbar.Link>
     <Navbar.Link>
     <Link to="/carrer">
