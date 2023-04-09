@@ -9,6 +9,7 @@ import Home from './pages/home'
 import Cart from './pages/cart'
 import {CartProvider} from 'react-use-cart'
 import Franchise from './pages/franchise'
+import Order from './pages/order'
 
 
 function App() {
@@ -26,6 +27,7 @@ function App() {
    <Route path="/carrer" element={<Carrer/>}></Route>
    <Route path="/cart" element={<Cart/>}></Route>
    <Route path="/franchise" element={<Franchise/>}></Route>
+   <Route path="/order" element={<Order/>}></Route>
    </Routes>
    </BrowserRouter>
    </CartProvider>
