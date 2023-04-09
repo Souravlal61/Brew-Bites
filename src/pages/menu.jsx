@@ -2,10 +2,12 @@ import React from 'react'
 import Itemcard from './Itemscard'
 import data from './data'
 import image1 from '../image/image1.jpg'
+
 export default function Menu(){
     return(
         <>
-        <section class="bg-cyan-400 dark:bg-gray-900">
+        <div className='bg-cyan-50'>
+        <section class="bg-cyan-100 dark:bg-gray-900">
    
    <div class="gap-8 items-center py-8 px-4 mx-auto max-w-screen-xl xl:gap-16 md:grid md:grid-cols-2 sm:py-16 lg:px-6">
    <img class="w-full dark:hidden"src={image1} alt="dashboard image"/>
@@ -19,7 +21,7 @@ export default function Menu(){
 </section>
 
         <h1 className='text-center mt-4 text-4xl font-bold text-gray-900 dark:text-white'>Our Menu</h1>
-        <section className='py-4 container'>
+        <section className='py-4'>
             <div className='row justify-center'>
                 {data.productData.map((items,index)=>{
                     return(
@@ -34,7 +36,7 @@ export default function Menu(){
                
             </div>
         </section>
-
+        </div>
         </>
     )
 }

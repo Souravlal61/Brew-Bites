@@ -1,6 +1,6 @@
 import React from "react";
 import {useCart} from "react-use-cart"
-import dustbin from '../image/dustbin.png'
+
 
 
 const Cart = () => {
@@ -18,12 +18,13 @@ const Cart = () => {
     } = useCart();
     if(isEmpty) return <h1 className="text-center text-2xl font-bold text-gray-900 dark:text-white">Your Cart is Empty</h1>
     return(
-        <section className="py-4 container">
+        <section className="py-4 bg-orange-50">
             <div className="row justify-center">
                 <div className="container-md">
                     <h5 className="text-2xl font-bold text-gray-900 dark:text-white m-4">Cart : ({totalUniqueItems}) <br/>Total Items : ({totalItems})</h5>
-                    <div className="justify-evenly inline-block flex justify-between align-middle">
-                     <div className="p-8 ml-4 p-4">
+                    <div className="justify-evenly align-middle flex">
+                    <div class="ml-4 p-4">
+     
 
                        
                    
