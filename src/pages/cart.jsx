@@ -1,9 +1,10 @@
 import React from "react";
 import {useCart} from "react-use-cart"
-
+import { useNavigate } from "react-router-dom";
 
 
 const Cart = () => {
+    let Navigate=useNavigate()
     const {
         isEmpty,
         totalUniqueItems,
@@ -31,7 +32,9 @@ const Cart = () => {
                        
                        
                         {items.map((items, index)=>{
+                           
                             return(
+                                
                          <tr key={index}>
                             
                             
@@ -74,7 +77,7 @@ const Cart = () => {
                     className="bg-gray-900 m-5 border:4px text-white rounded-lg w-28"
                     onClick={()=>emptyCart()}
                     >Clear Cart</button>
-                    <button className="bg-gray-900  text-white rounded-lg w-28">Buy Now</button>
+                    <button className="bg-gray-900  text-white rounded-lg w-28" onClick={()=>{Navigate('/order')}}>Buy Now</button>
                 </div>
              
             </div>
