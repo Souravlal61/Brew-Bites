@@ -24,7 +24,7 @@ export default function Flownavbar(){
   
     <Navbar.Toggle />
   </div>
-  <Navbar.Collapse className="text-bold text-xl font-semibold dark:text-white mt-2">
+  <Navbar.Collapse className="text-bold text-xl font-semibold dark:text-black mt-2">
   <Navbar.Link>
     
     
