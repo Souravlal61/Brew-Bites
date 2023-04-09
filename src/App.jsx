@@ -24,9 +24,8 @@ function App() {
    <Route path="/menu" element={<Menu/>}></Route>
    <Route path="/about" element={<About/>}></Route>
    <Route path="/carrer" element={<Carrer/>}></Route>
-   <Route path="/franchise" element={<Franchise/>}></Route>
    <Route path="/cart" element={<Cart/>}></Route>
-   
+   <Route path="/franchise" element={<Franchise/>}></Route>
    </Routes>
    </BrowserRouter>
    </CartProvider>
