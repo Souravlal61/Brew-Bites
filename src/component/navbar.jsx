@@ -3,9 +3,8 @@ import { Navbar } from "flowbite-react"
 import { Link } from "react-router-dom"
 import logo from "../image/logo.jpg"
 import {BsCart3} from 'react-icons/bs'
-import { Button } from "flowbite-react"
-import {BsCart3} from 'react-icons/bs'
-import { Button } from "flowbite-react"
+
+
 export default function Flownavbar(){
     return(
         <Navbar
@@ -42,12 +41,7 @@ export default function Flownavbar(){
     <Navbar.Toggle /> */}
     </div> 
 
-  <div className="flex justify-end md:order-2">
-  <Button>
-      Register
-    </Button>
-    <Navbar.Toggle /> 
-    </div> 
+  
 
   <Navbar.Collapse className="text-bold text-xl font-semibold dark:text-black mt-2">
   <Navbar.Link>
@@ -88,17 +82,9 @@ export default function Flownavbar(){
 
 
     <Navbar.Link>
-    <Link to="/login" className=" font-serif text-bold text-xl m-16 mr-auto">
+    <Link to="/login" className=" font-serif text-bold text-xl">
       Login </Link>
-    <Link to="/cart" className=" font-serif text-bold text-xl"><BsCart3 size='2rem' />
-    </Link> 
-    </Navbar.Link>
-
-
-    <Navbar.Link>
-    <Link to="/login" className=" font-serif text-bold text-xl m-16 mr-auto">
-      Login </Link>
-    </Navbar.Link>
+      </Navbar.Link>
 
     {/* <Navbar.Link>
     <Link to="/login" className=" font-serif text-bold text-xl">

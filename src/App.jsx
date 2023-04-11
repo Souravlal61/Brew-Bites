@@ -13,9 +13,8 @@ import Franchise from './pages/franchise'
 import Order from './pages/order'
 import Login from './pages/login'
 import Register from './pages/register'
-import Order from './pages/order'
-import Login from './pages/login'
-import Register from './pages/register'
+
+
 
 function App() {
   // const [count, setCount] = useState(0)
