@@ -24,6 +24,7 @@ function App() {
    
    
    <CartProvider>
+   
    <BrowserRouter>
    <Flownavbar></Flownavbar>
    <Routes>
@@ -37,8 +38,8 @@ function App() {
    <Route path="/" element={<Login/>}></Route>
    <Route path="/register" element={<Register/>}></Route>
    <Route path="/order" element={<Order/>}></Route>
-   <Route path="/" element={<Login/>}></Route>
-   <Route path="/register" element={<Register/>}></Route>
+   <Route path="/login" element={<Login/>}></Route>
+   
    </Routes>
    </BrowserRouter>
    </CartProvider>
