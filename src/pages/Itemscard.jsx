@@ -7,7 +7,7 @@ import {useCart} from "react-use-cart";
     
   <>
    
-   <div className="ml-6 gap-x-6 gap-y-10 m-3 justify-evenly inline-block">
+   <div className="ml-10 gap-x-6 gap-y-10 m-3 justify-evenly inline-block">
   <div class=" bg-white p-3 hover:scale-110 border-x-black border-y-black border-2 rounded-xl container">
      
      
