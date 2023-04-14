@@ -1,24 +1,128 @@
-import express from "express";
-import cors from "cors";
-import mongoose from "mongoose";
+const express = require("express")
+const mongoose = require("mongoose")
+const bodyParser = require("body-parser")
+const cors = require("cors")
 
 const app = express()
 app.use(express.json())
-app.use(express.urlencoded())
 app.use(cors())
+const PORT = 5000
 
-mongoose.connect("mongodb://127.0.0.1:27017/backend",{useNewUrlParser:true,
-useUnifiedTopology:true
-},() => {
-    console.log("DB connected")
+app.listen(PORT, () => {
+    console.log(`app is listening to PORT ${PORT}`)
 })
 
-//Routes
-
-app.get("/",(req,res)=>{
-    res.send("My API")
+mongoose.connect("mongodb+srv://souravlal03:SOurav123456@cluster0.br5uyte.mongodb.net/login-reg?retryWrites=true&w=majority",{
+    useNewUrlParser: true,
+    useUnifiedTopology: true,
 })
 
-app.listen(9002,()=>{
-    console.log("started at port 9002")
+mongoose.connection.on("error",err =>{
+    console.log("err", err)
 })
+
+mongoose.connection.on("connected",(err,res) =>{
+    console.log("mongoose is connected")
+})
+
+//routes
+
+const userSchema = new mongoose.Schema({
+         name: String,
+         email: String,
+         passward: String,
+     })
+     const User = new mongoose.model("User", userSchema)
+
+app.post("/login", (req,res) =>{
+    const{email,password} = req.body
+    User.findOne({email: email}).then((err, user) =>{
+        if(user){
+              if(password === user.password){
+                res.send({message: "LOGIN SUCCESSFULL", user: user})
+              }else{
+                res.send({message: "PASSWARD DID NOT MATCHED"})
+              }
+        }else{
+            res.send({message: "USER NOT REGISTERD"})
+        }
+    })
+})
+
+app.post("/register", (req,res) =>{
+    const { name, email, password} = req.body
+     User.findOne({email: email})
+     .then( (err, user) => {
+        if(user){
+            res.send({message: "USER ALREADY REGISTERED"})
+        } else {
+             const user = new User({
+      name,
+      email,
+       password
+ })
+ user.save().then((err) => {
+        if(err){
+            res.send(err)
+        } else {
+            res.send({message: "YOU HAVE SUCCESSFULLY REGISTERED"})}
+ })
+
+        }
+    })
+   
+})
+
+
+// const userSchema = new mongoose.Schema({
+//     name: String,
+//     email: String,
+//     passward: String,
+// })
+
+// const User = new mongoose.model("User", userSchema)
+
+// //Routes
+  //     app.post("/login",(req, res) =>{
+//         const { email, password} = req.body
+//         User.findOne({email: email}, (err, user) => {
+//             if(user){
+//                 if(password === user.password){
+//             } 
+            
+//             else{
+//                 res.send("USER NOT REGISTERED")
+//             }
+//         )
+//      })
+
+//      app.post("/register",(req, res) =>{
+//          const {name, email, password} = req.body
+//          User.findOne({email:email},(err,user) =>{
+//             if(user){
+//                 if(password === user.password)}
+//                 else{
+//                 res.send({message: "USER ALREADY REGISTERED"})
+//             }
+//          }
+//        )
+//          const user = new User({
+//             name,
+//             email,
+//             password
+//          })
+//          user.save(err => {
+//             if(err){
+//                 res.send(err)
+//             }else {
+//                 res.send({message: "YOU HAVE SUCCESSFULLY REGISTERED"})
+//             }
+//          })
+//      })
+
+//     //  app.listen(5000,()=> {
+//     //      console.log("Be Started At Port 5000")
+//     //  })
+
+
+   
