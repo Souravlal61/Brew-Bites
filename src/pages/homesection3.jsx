@@ -1,13 +1,18 @@
 
 import image34 from '../image/image34.jpg'
+import starbuck from '../image/starbuck.jpg'
+import chai from '../image/chai.png'
+import burger from '../image/burger.png'
+import samosa from '../image/samosa.png'
+import roll from '../image/roll.jpg'
 export default function Timing() {
     return (
     
-       
-      <div className=" bg-orange-50">
-          <h2 className="text-4xl font-bold bg-orange-50"><center>Contact Us!</center></h2>
+       <>
+      <div className="bg-gradient-to-r from-indigo-300 from-10% via-sky-100 via-30% to-emerald-50 to-90% ">
+          <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-300 from-10% via-sky-100 via-30% to-emerald-50 to-90% "><center>Contact Us!</center></h2>
         <div className="mx-auto max-w-8xl py-20 sm:px-2 sm:py-8 lg:px-8">
-          <div className="relative isolate overflow-hidden bg-orange-100 px-6 pt-24 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
+          <div className="relative isolate overflow-hidden bg-gradient-to-r from-cyan-100 to-blue-200 px-6 pt-24 shadow-2xl sm:rounded-3xl sm:px-16 md:pt-24 lg:flex lg:gap-x-20 lg:px-24 lg:pt-0">
             <svg
               viewBox="0 0 1024 1024"
               className="absolute top-1/2 left-1/2 -z-10 h-[64rem] w-[64rem] -translate-y-1/2 [mask-image:radial-gradient(closest-side,white,transparent)] sm:left-full sm:-ml-80 lg:left-1/2 lg:ml-0 lg:translate-y-0 lg:-translate-x-1/2"
@@ -53,6 +58,52 @@ export default function Timing() {
           </div>
         </div>
       </div>
+
+<div className="bg-gradient-to-r from-indigo-300 from-10% via-sky-100 via-30% to-emerald-50 to-90%  py-24 sm:py-32">
+<div className="mx-auto max-w-7xl px-6 lg:px-8">
+  <h2 className="text-center text-4xl font-bold">
+    Collabration With These Companies
+  </h2>
+  <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
+    <img
+      className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
+      src={starbuck}
+      alt="starbucks"
+      width={140}
+      height={60}
+    />
+    <img
+      className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
+      src={burger}
+      alt="Burger king"
+      width={158}
+      height={48}
+    />
+    <img
+      className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
+      src={samosa}
+      alt="samosa singh"
+      width={158}
+      height={48}
+    />
+ <img
+      className="col-span-2 max-h-20 w-full object-contain sm:col-start-2 lg:col-span-1"
+      src={roll}
+      alt="roll express"
+      width={158}
+      height={48}
+    />   
+    <img
+      className="col-span-2 col-start-2 max-h-20 w-full object-contain sm:col-start-auto lg:col-span-1"
+      src={chai}
+      alt="chai sutta bar"
+      width={158}
+      height={48}
+    />
+  </div>
+</div>
+</div>
+</>
     )
   }
   

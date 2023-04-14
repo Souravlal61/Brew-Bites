@@ -3,7 +3,7 @@ import Growth2 from '../image/Growth2.jpg'
 export default function Team(){
     return(
         <>
-        <section class="bg-orange-50 dark:bg-gray-900">
+        <section class="bg-gradient-to-r from-orange-100 to-blue-200 dark:bg-gray-900">
   <div class="py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6 ">
       <div class="mx-auto max-w-screen-sm text-center mb-8 lg:mb-16">
           <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">Our Team</h2>
@@ -150,7 +150,7 @@ export default function Team(){
   </div>
 
 
-<section class=" bg-orange-50 dark:bg-gray-900">
+<section class="bg-gradient-to-r from-orange-100 to-blue-200 dark:bg-gray-900">
 <p className="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl"><center><u>Our Growth</u></center></p>
 
 

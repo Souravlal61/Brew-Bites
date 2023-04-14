@@ -7,10 +7,10 @@ export default function Home(){
 
     return(
         <>
-      <Flowcrousel></Flowcrousel>
+       <Flowcrousel></Flowcrousel>
       <Items></Items>
       <Review></Review>
-      {/* <Login></Login> */}
+
         </>
     )
 }

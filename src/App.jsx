@@ -4,7 +4,6 @@ import Flowfooter from './component/footer'
 import Flownavbar from './component/navbar'
 import About from './pages/about'
 import { BrowserRouter, Routes, Route} from 'react-router-dom'
-import Carrer from './pages/carrer'
 import Menu from './pages/menu'
 import Home from './pages/home'
 import Cart from './pages/cart'
@@ -31,7 +30,6 @@ function App() {
    <Route path="/home" element={<Home/>}></Route>
    <Route path="/menu" element={<Menu/>}></Route>
    <Route path="/about" element={<About/>}></Route>
-   <Route path="/carrer" element={<Carrer/>}></Route>
    <Route path="/cart" element={<Cart/>}></Route>
    <Route path="/franchise" element={<Franchise/>}></Route>
    <Route path="/order" element={<Order/>}></Route>
