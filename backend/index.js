@@ -30,7 +30,7 @@ mongoose.connection.on("connected",(err,res) =>{
 const userSchema = new mongoose.Schema({
          name: String,
          email: String,
-         passward: String,
+         password: String,
      })
      const User = new mongoose.model("User", userSchema)
 

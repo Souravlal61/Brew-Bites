@@ -15,16 +15,17 @@ const Cart = () => {
         removeItem,
         emptyCart,
     
-    
+     
     } = useCart();
     if(isEmpty) return <h1 className="text-center text-2xl font-bold text-gray-900 dark:text-white">Your Cart is Empty</h1>
     return(
-        <section className="py-4 bg-orange-50">
+
+        <section className="py-4 bg-gradient-to-r from-sky-300 to-sky-100">
             <div className="row justify-center">
                 <div className="container-md">
                     <h5 className="text-2xl font-bold text-gray-900 dark:text-white m-4">Cart : ({totalUniqueItems}) <br/>Total Items : ({totalItems})</h5>
                     <div className="justify-evenly align-middle flex">
-                    <div class="ml-4 p-4">
+                    <div class="ml-4 p-4 ">
      
 
                        
@@ -40,7 +41,7 @@ const Cart = () => {
                             
                          
                                 <img className="m-5"
-                                src={items.img} style={{width:'14rem'}}/>
+                                src={items.img} style={{width:'15rem', height:'12rem'}}/>
                           <p className="ml-4 text-1xl font-bold text-gray-900 dark:text-white mt-1">{items.title}</p>   
                           <h1 className="ml-4 text-1xl font-bold text-gray-900 dark:text-white">Price : ({items.price})</h1>                           
                           <h2 className="ml-4 text-1xl font-bold text-gray-900 dark:text-white">Quantity : ({items.quantity})</h2>

@@ -4,6 +4,9 @@ import { Label } from 'flowbite-react';
 import { Checkbox } from 'flowbite-react';
 import React, {useState} from 'react';
 import axios from "axios"
+import login1 from "../image/login1.png"
+import login2 from "../image/login2.jpg"
+import login3 from "../image/login3.jpg"
 export default function Login(){
 
   let Navigate=useNavigate();
@@ -29,7 +32,7 @@ export default function Login(){
  }
     return(
       <>
-      <section class="bg-gradient-to-r from-cyan-200 to-blue-500 dark:bg-gray-900">
+      <section class="bg-gradient-to-r from-cyan-100 to-blue-50 dark:bg-gray-900">
         {console.log(user)}
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white"> Login Here</h2>
@@ -78,15 +81,18 @@ export default function Login(){
       <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
           <div class="flex flex-col items-center justify-center">
               <dt class="mb-2 text-3xl md:text-4xl font-extrabold">30 Minutes</dt>
-              <dd class="font-light text-gray-500 dark:text-gray-400">Home Delivery</dd>
+              <dd class="font-light text-gray-900 dark:text-gray-900">Home Delivery</dd>
+              <dd class="font-light text-gray-500 dark:text-gray-400"><img src={login1} className="h-32 w-44"/></dd>
           </div>
           <div class="flex flex-col items-center justify-center">
               <dt class="mb-2 text-3xl md:text-4xl font-extrabold">40+</dt>
-              <dd class="font-light text-gray-500 dark:text-gray-400">Cities</dd>
+              <dd class="font-light text-gray-900 dark:text-gray-900">Cities</dd>
+              <dd class="font-light text-gray-500 dark:text-gray-400"><img src={login2} className=" w-44 h-32"/></dd>
           </div>
           <div class="flex flex-col items-center justify-center">
               <dt class="mb-2 text-3xl md:text-4xl font-extrabold">99%</dt>
-              <dd class="font-light text-gray-500 dark:text-gray-400">Fresh Food</dd>
+              <dd class="font-light text-gray-900 dark:text-gray-900">Fresh Food</dd>
+              <dd class="font-light text-gray-500 dark:text-gray-400"><img src={login3} className=" w-44 h-32"/></dd>
           </div>
       </dl>
   </div>

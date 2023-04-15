@@ -39,6 +39,8 @@ import menu37 from '../image/menu37.jpg'
 import menu38 from '../image/menu38.jpg'
 import menu39 from '../image/menu39.jpg'
 import menu40 from '../image/menu40.jpg'
+import menu41 from '../image/menu41.jpg'
+import menu42 from '../image/menu42.jpg'
 
 const data = {
     productData:[
@@ -77,9 +79,27 @@ const data = {
             price: 90,
             
         },
-
+        
         {
             id: 5,
+            img: menu41,
+            title: 'Burger Combo',
+            desc: 'BUrger with Franch fries.',
+            price: 130,
+            
+        },
+
+        {
+            id: 6,
+            img: menu42,
+            title: 'Jumbo non-veg Burger ',
+            desc: 'Non-veg jumbo , burger',
+            price: 120,
+            
+        },
+
+        {
+            id: 7,
             img: menu5,
             title: 'soya cappuccino coffee',
             desc: 'full cream soya coffee',
@@ -88,7 +108,7 @@ const data = {
         },
 
         {
-            id: 6,
+            id: 8,
             img: menu6,
             title: 'Cold coffee',
             desc: 'Cold coffee with ice-cream',
@@ -97,7 +117,7 @@ const data = {
         },
 
         {
-            id: 7,
+            id: 9,
             img: menu7,
             title: 'khulad tea',
             desc: 'khulad tea with ginger',
@@ -106,7 +126,7 @@ const data = {
         },
 
         {
-            id: 8,
+            id: 10,
             img: menu8,
             title: 'Herbal Tea',
             desc: 'Herbal tea with flavoured herbs',
@@ -115,7 +135,7 @@ const data = {
         },
 
         {
-            id: 9,
+            id: 11,
             img: menu9,
             title: 'Panner tikka masala',
             desc: 'Panner tikka with chutney-salad',
@@ -124,7 +144,7 @@ const data = {
         },
 
         {
-            id: 10,
+            id: 12,
             img: menu10,
             title: 'Panner with naan',
             desc: 'Panner & naan with salad',
@@ -133,7 +153,7 @@ const data = {
         },
 
         {
-            id:11,
+            id:13,
             img: menu11,
             title: 'Panner Curry with Rice',
             desc: 'Malai Panner curry & Rice',
@@ -142,7 +162,7 @@ const data = {
         },
 
         {
-            id: 12,
+            id: 14,
             img: menu12,
             title: 'Shahi Panner',
             desc: 'shahi panner with cream',
@@ -151,7 +171,7 @@ const data = {
         },
 
         {
-            id: 13,
+            id: 15,
             img: menu13,
             title: 'Chicken Biryani',
             desc: 'Flavoured Black Peper Biryani',
@@ -160,7 +180,7 @@ const data = {
         },
 
         {
-            id: 14,
+            id: 16,
             img: menu14,
             title: 'Lemon Chicken',
             desc: 'Spicy Lemon Chicken.',
@@ -169,7 +189,7 @@ const data = {
         },
 
         {
-            id: 15,
+            id: 17,
             img: menu15,
             title: 'Chicken curry with rice',
             desc: 'Chicken curry rice with salad',
@@ -178,7 +198,7 @@ const data = {
         },
 
         {
-            id: 16,
+            id: 18,
             img: menu16,
             title: 'Thai chicken curry',
             desc: 'Thai flavoured chicken & Rice',
@@ -187,7 +207,7 @@ const data = {
         },
 
         {
-            id: 17,
+            id: 19,
             img: menu17,
             title: 'Cheese Pizza',
             desc: 'Chesse pizza with origano flakes.',
@@ -196,7 +216,7 @@ const data = {
         },
         
         {
-            id: 18,
+            id: 20,
             img: menu18,
             title: 'Tandoori Pizza',
             desc: 'Tandoori flavoured Pizza',
@@ -205,7 +225,7 @@ const data = {
         },
 
         {
-            id: 19,
+            id: 21,
             img: menu19,
             title: 'Barbecue chicken Pizza',
             desc: 'Barbecue chicken pizza.',
@@ -214,7 +234,7 @@ const data = {
         },
 
         {
-            id: 20,
+            id: 22,
             img: menu20,
             title: 'Vegetable Pizza',
             desc: 'veg cheese pizza',
@@ -223,7 +243,7 @@ const data = {
         },
 
         {
-            id: 21,
+            id: 23,
             img: menu21,
             title: 'Panner Samosa',
             desc: 'Panner loaded samosa',
@@ -232,7 +252,7 @@ const data = {
         },
 
         {
-            id: 22,
+            id: 24,
             img: menu22,
             title: 'Aloo Samosa',
             desc: 'Aloo masala samosa',
@@ -241,7 +261,7 @@ const data = {
         },
 
         {
-            id: 23,
+            id: 25,
             img: menu23,
             title: 'Chicken Samosa',
             desc: 'Chicken loaded samosa',
@@ -250,7 +270,7 @@ const data = {
         },
 
         {
-            id: 24,
+            id: 26,
             img: menu24,
             title: 'french samosa',
             desc: 'French veg samosa',
@@ -259,7 +279,7 @@ const data = {
         },
 
         {
-            id: 25,
+            id: 27,
             img: menu25,
             title: 'Cold ice-cream shake',
             desc: 'ice-cream loaded shake',
@@ -268,7 +288,7 @@ const data = {
         },
 
         {
-            id: 26,
+            id: 28,
             img: menu26,
             title: 'Mango Shake',
             desc: 'Mango shake with pista',
@@ -277,7 +297,7 @@ const data = {
         },
 
         {
-            id: 27,
+            id: 29,
             img: menu27,
             title: 'Chocolate Shake',
             desc: 'Chocolate milk Shake',
@@ -286,7 +306,7 @@ const data = {
         },
 
         {
-            id: 28,
+            id: 30,
             img: menu28,
             title: 'Vanilla Shake',
             desc: 'Vanilla flavoured shake',
@@ -295,7 +315,7 @@ const data = {
         },
 
         {
-            id: 29,
+            id: 31,
             img: menu29,
             title: 'Strawberry Shake',
             desc: 'Strawberry flavoured shake',
@@ -304,7 +324,7 @@ const data = {
         },
 
         {
-            id: 30,
+            id: 32,
             img: menu30,
             title: 'Oreo Shake',
             desc: 'Vanilla flavoured shake',
@@ -313,7 +333,7 @@ const data = {
         },
 
         {
-            id: 31,
+            id: 33,
             img: menu31,
             title: 'Mix Fruit Shake',
             desc: 'Mix floavoured fruit Shake',
@@ -322,7 +342,7 @@ const data = {
         },
 
         {
-            id: 32,
+            id: 34,
             img: menu32,
             title: 'Pineapple Shake',
             desc: 'Pineapple Shakee',
@@ -331,7 +351,7 @@ const data = {
         },
 
         {
-            id: 33,
+            id: 35,
             img: menu33,
             title: 'Veg indian mix-food',
             desc: 'Ved indian thali',
@@ -340,7 +360,7 @@ const data = {
         },
 
         {
-            id: 34,
+            id: 36,
             img: menu34,
             title: 'non-veg mix-food',
             desc: 'non-veg thali',
@@ -349,7 +369,7 @@ const data = {
         },
 
         {
-            id: 35,
+            id: 37,
             img: menu35,
             title: 'Mix fast-food Thali',
             desc: 'fast-food thali',
@@ -358,7 +378,7 @@ const data = {
         },
 
         {
-            id: 36,
+            id: 38,
             img: menu36,
             title: 'Mugalai Thali',
             desc: 'Mugalai thali',
@@ -367,7 +387,7 @@ const data = {
         },
 
         {
-            id: 37,
+            id: 39,
             img: menu37,
             title: 'Chocolate Cake',
             desc: 'Cake',
@@ -376,7 +396,7 @@ const data = {
         },
 
         {
-            id: 38,
+            id: 40,
             img: menu38,
             title: 'Ras-malai',
             desc: 'Ras-malai with kesar pista',
@@ -385,7 +405,7 @@ const data = {
         },
 
         {
-            id: 39,
+            id: 41,
             img: menu39,
             title: 'Strawberry Sweet',
             desc: 'Strawberry flavoured Sweet',
@@ -395,7 +415,7 @@ const data = {
         },
 
         {
-            id: 40,
+            id: 42,
             img: menu40,
             title: 'kesar milk ice-cream',
             desc: 'kesar flavoured milk ice-cream',

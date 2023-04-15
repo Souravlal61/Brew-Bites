@@ -11,7 +11,8 @@
  <Navbar
    fluid={true}
    rounded={true}
-     className="font-bold pb-4"
+     className="font-bold pb-4  bg-opacity-10"
+     
  >
    <Navbar.Brand>
      <img
@@ -31,11 +32,11 @@
      >
        
        <Dropdown.Item>
-         <Link to="/register">Register</Link>
+         <Link to="/register">Setting</Link>
        </Dropdown.Item>
        <Dropdown.Divider />
        <Dropdown.Item>
-        <Link to="/login"> Sign out</Link>
+        <Link to="/login">Log out</Link>
        </Dropdown.Item>
      </Dropdown>
      <Navbar.Toggle />
