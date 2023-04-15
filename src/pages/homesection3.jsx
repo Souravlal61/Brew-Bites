@@ -5,6 +5,7 @@ import chai from '../image/chai.png'
 import burger from '../image/burger.png'
 import samosa from '../image/samosa.png'
 import roll from '../image/roll.jpg'
+import { Link } from 'react-router-dom'
 export default function Timing() {
     return (
     
@@ -40,9 +41,9 @@ export default function Timing() {
               </p>
               </div>
               <div className="mt-10 flex items-center justify-center gap-x-6 lg:justify-start">
-              <p className="mt-6 text-lg leading-8 text-black">
-               Email us at : helloeverone@gmail.com
-              </p>
+              <a href="https://accounts.google.com/" className="mt-6 text-lg leading-8 text-blue-900">
+               Email us at : helloeveryone@gmail.com
+              </a>
                
               </div>
             </div>
@@ -65,41 +66,41 @@ export default function Timing() {
     Collabration With These Companies
   </h2>
   <div className="mx-auto mt-10 grid max-w-lg grid-cols-4 items-center gap-x-8 gap-y-10 sm:max-w-xl sm:grid-cols-6 sm:gap-x-10 lg:mx-0 lg:max-w-none lg:grid-cols-5">
-    <img
-      className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
+   <a href='https://www.starbucks.in/dashboard'> <img
+      className="col-span-2 max-h-20 w-full object-contain lg:col-span-1 hover:scale-110"
       src={starbuck}
       alt="starbucks"
       width={140}
       height={60}
-    />
-    <img
-      className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
+    /></a>
+   <a href='https://www.burgerking.in/'> <img
+      className="col-span-2 max-h-20 w-full object-contain lg:col-span-1 hover:scale-110"
       src={burger}
       alt="Burger king"
       width={158}
       height={48}
-    />
-    <img
-      className="col-span-2 max-h-20 w-full object-contain lg:col-span-1"
+    /></a>
+   <a href=''> <img
+      className="col-span-2 max-h-20 w-full object-contain lg:col-span-1 hover:scale-110"
       src={samosa}
       alt="samosa singh"
       width={158}
       height={48}
-    />
- <img
-      className="col-span-2 max-h-20 w-full object-contain sm:col-start-2 lg:col-span-1"
+    /></a>
+ <a href=''><img
+      className="col-span-2 max-h-20 w-full object-contain sm:col-start-2 lg:col-span-1 hover:scale-110"
       src={roll}
       alt="roll express"
       width={158}
       height={48}
-    />   
-    <img
-      className="col-span-2 col-start-2 max-h-20 w-full object-contain sm:col-start-auto lg:col-span-1"
+    /> </a>  
+   <a href=''> <img
+      className="col-span-2 col-start-2 max-h-20 w-full object-contain sm:col-start-auto lg:col-span-1 hover:scale-110"
       src={chai}
       alt="chai sutta bar"
       width={158}
       height={48}
-    />
+    /></a>
   </div>
 </div>
 </div>

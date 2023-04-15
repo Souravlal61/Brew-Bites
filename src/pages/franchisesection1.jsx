@@ -59,6 +59,7 @@ Brew & Bites</h2>
         </div>
       
       <section class="dark:bg-gray-900">
+      <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white"><center>Our Expension Across India.</center></h2>
       <div class="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
           <dl class="grid max-w-screen-md gap-8 mx-auto text-gray-900 sm:grid-cols-3 dark:text-white">
               <div class="flex flex-col items-center justify-center">
