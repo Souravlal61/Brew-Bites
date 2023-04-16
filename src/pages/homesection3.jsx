@@ -5,7 +5,7 @@ import chai from '../image/chai.png'
 import burger from '../image/burger.png'
 import samosa from '../image/samosa.png'
 import roll from '../image/roll.jpg'
-import { Link } from 'react-router-dom'
+
 export default function Timing() {
     return (
     
@@ -80,21 +80,21 @@ export default function Timing() {
       width={158}
       height={48}
     /></a>
-   <a href=''> <img
+   <a href='https://www.samosasingh.com/'> <img
       className="col-span-2 max-h-20 w-full object-contain lg:col-span-1 hover:scale-110"
       src={samosa}
       alt="samosa singh"
       width={158}
       height={48}
     /></a>
- <a href=''><img
+ <a href='https://www.rollxpress.in/'><img
       className="col-span-2 max-h-20 w-full object-contain sm:col-start-2 lg:col-span-1 hover:scale-110"
       src={roll}
       alt="roll express"
       width={158}
       height={48}
     /> </a>  
-   <a href=''> <img
+   <a href='https://www.chaisuttabarindia.com/'> <img
       className="col-span-2 col-start-2 max-h-20 w-full object-contain sm:col-start-auto lg:col-span-1 hover:scale-110"
       src={chai}
       alt="chai sutta bar"

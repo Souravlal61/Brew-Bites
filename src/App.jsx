@@ -12,12 +12,18 @@ import Franchise from './pages/franchise'
 import Order from './pages/order'
 import Login from './pages/login'
 import Register from './pages/register'
+import { useState } from 'react'
 
 
 
 function App() {
-  // const [count, setCount] = useState(0)
-
+  //const [count, setCount] = useState(0)
+  //{user && user._id ? <Home/> : <Login setLoginUser={setLoginUser}/>}</>
+//const [collections, setLoginUser] = useState({
+  // name:"",
+  // email:"",
+  // password:""
+//})
   return (
    <>
    
@@ -33,7 +39,7 @@ function App() {
    <Route path="/cart" element={<Cart/>}></Route>
    <Route path="/franchise" element={<Franchise/>}></Route>
    <Route path="/order" element={<Order/>}></Route>
-   <Route path="/" element={<Login/>}></Route>
+   <Route path="/" element={<Login setLoginUser={setLoginUser}/>}></Route>
    <Route path="/register" element={<Register/>}></Route>
    <Route path="/order" element={<Order/>}></Route>
    <Route path="/login" element={<Login/>}></Route>

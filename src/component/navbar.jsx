@@ -1,11 +1,12 @@
  import { Navbar } from "flowbite-react"
- import { Link } from "react-router-dom"
+ import { Link, useLocation } from "react-router-dom"
  import logo from "../image/logo.jpg"
  import {BsCart3} from 'react-icons/bs'
  import {Avatar} from "flowbite-react"
  import { Dropdown } from "flowbite-react"
  import user from "../image/user.jpg"
  export default function Flownavbar(){
+  const location = useLocation()
     return(
 
  <Navbar
@@ -32,7 +33,7 @@
      >
        
        <Dropdown.Item>
-         <Link to="/register">Setting</Link>
+       <Link to="/menu">Setting</Link>
        </Dropdown.Item>
        <Dropdown.Divider />
        <Dropdown.Item>
@@ -43,7 +44,7 @@
    </div>
    <Navbar.Collapse>
      <Navbar.Link> 
-      <Link to="/home"> HOME </Link>
+      <Link to="/home"> HOME</Link>
      </Navbar.Link>
      <Navbar.Link> 
       <Link to="/about"> ABOUT </Link>
