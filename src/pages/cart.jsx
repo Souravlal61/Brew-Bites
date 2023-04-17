@@ -18,6 +18,8 @@ const Cart = () => {
      
     } = useCart();
     if(isEmpty) return <h1 className="text-center text-2xl font-bold text-gray-900 dark:text-white">Your Cart is Empty</h1>
+   
+   
     return(
 
         <section className="py-4 bg-gradient-to-r from-sky-300 to-sky-100">

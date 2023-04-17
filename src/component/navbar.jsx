@@ -5,8 +5,10 @@
  import {Avatar} from "flowbite-react"
  import { Dropdown } from "flowbite-react"
  import user from "../image/user.jpg"
+ import { useCart } from "react-use-cart"
  export default function Flownavbar(){
-  const location = useLocation()
+  const{totalItems}=useCart();
+  //const location = useLocation()
     return(
 
  <Navbar
@@ -56,8 +58,9 @@
       <Link to="/franchise"> FRANCHISE </Link>
      </Navbar.Link>
      <Navbar.Link>
-     <Link to="/cart" className=" font-serif text-bold text-xl"><BsCart3 size='2rem' />
-     </Link> 
+     
+    <Link to="/cart" className=" font-serif text-bold text-xl"><div className="flex justify-items-center"> <BsCart3 size='2rem' /><span className="rounded-full bg-orange-600 text-white w-6 h-7 text-center">{totalItems}</span></div></Link> 
+  
      </Navbar.Link>
 
    </Navbar.Collapse>

@@ -55,7 +55,7 @@ const newSchema = new mongoose.Schema({
         const{email,password}=req.body
 
         try{
-            const check=await collection.findOne({email:email})
+            const check=await collection.findOne({email:email,password:password})
 
             if(check){
                 res.json("exist")
@@ -96,5 +96,59 @@ const newSchema = new mongoose.Schema({
              res.json("not exist")
         }
     })
+
+
+
+
+    //franchise
+
+    const new1Schema = new mongoose.Schema({
+        email:{
+            type:String},
+                name:{
+                    type:String
+                },
+                phoneNumber:{
+                    type:String
+                },
+                city:{
+                    type:String
+                },
+                introduction:{
+                    type:String
+                }
+        })
+    
+        const franchise = mongoose.model("franchise",new1Schema)
+    
+        module.exports=franchise
+
+    app.post("/franchise",async(req,res)=>{
+        const{email,phoneNumber,city,name,introduction}=req.body
+
+        const data={
+            email:email,
+            phoneNumber:phoneNumber,
+            name:name,
+            city:city,
+            introduction:introduction
+        }
+
+        try{
+            const check=await franchise.findOne({email:email, password:password, name:name, city:city})
+
+            if(check){
+                res.json("exist")
+            }
+            else{
+                res.json("not exist")
+                await franchise.insertMany([data])
+            }
+        } catch(e){
+             res.json("not exist")
+        }
+    })
+
+
 
 

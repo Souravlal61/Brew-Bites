@@ -28,6 +28,7 @@ export default function Login(){
          else if(res.data=="not exist"){
            alert("user Not registered")
          }
+        
          })
 
          .catch(e=>{

@@ -39,7 +39,7 @@ function App() {
    <Route path="/cart" element={<Cart/>}></Route>
    <Route path="/franchise" element={<Franchise/>}></Route>
    <Route path="/order" element={<Order/>}></Route>
-   <Route path="/" element={<Login setLoginUser={setLoginUser}/>}></Route>
+   <Route path="/" element={<Login/>}></Route>
    <Route path="/register" element={<Register/>}></Route>
    <Route path="/order" element={<Order/>}></Route>
    <Route path="/login" element={<Login/>}></Route>
