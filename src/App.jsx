@@ -13,6 +13,7 @@ import Order from './pages/order'
 import Login from './pages/login'
 import Register from './pages/register'
 import { useState } from 'react'
+import Venue from './pages/Venue'
 
 
 
@@ -43,6 +44,7 @@ function App() {
    <Route path="/register" element={<Register/>}></Route>
    <Route path="/order" element={<Order/>}></Route>
    <Route path="/login" element={<Login/>}></Route>
+   <Route path="/venue" element={<Venue/>}></Route>
    
    </Routes>
    </BrowserRouter>

@@ -45,7 +45,7 @@ const newSchema = new mongoose.Schema({
 
 
 
-    //Router
+    //Routes
 
     app.get("/",cors(), (req,res)=>{
 
@@ -102,7 +102,7 @@ const newSchema = new mongoose.Schema({
 
     //franchise
 
-    const new1Schema = new mongoose.Schema({
+    const userSchema = new mongoose.Schema({
         email:{
             type:String},
                 name:{
@@ -119,11 +119,16 @@ const newSchema = new mongoose.Schema({
                 }
         })
     
-        const franchise = mongoose.model("franchise",new1Schema)
+        const partner = mongoose.model("partner",userSchema)
     
-        module.exports=franchise
+        module.exports = partner
 
-    app.post("/franchise",async(req,res)=>{
+        app.get("/franchise",cors(), (req,res)=>{
+
+        })
+       
+
+    app.post("/",async(req,res)=>{
         const{email,phoneNumber,city,name,introduction}=req.body
 
         const data={
@@ -135,14 +140,14 @@ const newSchema = new mongoose.Schema({
         }
 
         try{
-            const check=await franchise.findOne({email:email, password:password, name:name, city:city})
+            const check=await partner.findOne({email:email, password:password})
 
             if(check){
                 res.json("exist")
             }
             else{
                 res.json("not exist")
-                await franchise.insertMany([data])
+                await partner.insertMany([data])
             }
         } catch(e){
              res.json("not exist")
@@ -151,4 +156,73 @@ const newSchema = new mongoose.Schema({
 
 
 
+// Venue Odering 
 
+
+const new2Schema = new mongoose.Schema({
+    email:{
+        type:String},
+            name:{
+                type:String
+            },
+            phoneNumber:{
+                type:String
+            },
+            date:{
+                type:String
+            },
+            discription:{
+                type:String
+            }
+    })
+
+    const venue = mongoose.model("venue",new2Schema)
+
+    module.exports=venue
+
+app.post("/venue",async(req,res)=>{
+    const{email,phoneNumber,date,name,discription}=req.body
+
+    const data={
+        email:email,
+        phoneNumber:phoneNumber,
+        name:name,
+        date:date,
+        discription:discription
+    }
+
+    try{
+        const check=await venue.findOne({email:email, password:password})
+
+        if(check){
+            res.json("exist")
+        }
+        else{
+            res.json("not exist")
+            await venue.insertMany([data])
+        }
+    } catch(e){
+         res.json("not exist")
+    }
+})
+
+
+
+// product Schema
+const proSchema = new mongoose.Schema({
+    productid:{
+        type:String},
+        img:{
+            type:Array},
+        title:{
+            type:String},
+        desc:{
+            type:String},
+        price:{
+            type:String},
+           
+    })
+
+    const items = mongoose.model("items",proSchema)
+
+    module.exports=items

@@ -3,7 +3,7 @@ export default function Flowfooter(){
 return(
 <footer class="mb-auto bg-black rounded-lg shadow sm:flex sm:items-center sm:justify-between p-4 sm:p-6 xl:p-8 dark:bg-gray-800">
   <p class="mb-4 text-sm text-center text-white dark:text-white sm:mb-0">
-      &copy; 2019-2022 <a href="https://flowbite.com/" class="hover:underline" target="_blank">Flowbite.com</a>. All rights reserved.
+      &copy; 2019-2022 <a href="https://flowbite.com/" class="hover:underline" target="_blank">Brew & Bites</a>. All rights reserved.
   </p>
   <div class="flex justify-center items-center space-x-1">
     <a href="#" data-tooltip-target="tooltip-facebook" class="inline-flex justify-center p-2 text-white rounded-lg cursor-pointer dark:text-gray-400 dark:hover:text-white hover:text-gray-900 hover:bg-gray-100 dark:hover:bg-gray-600">

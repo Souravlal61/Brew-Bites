@@ -1,7 +1,8 @@
+import { Link } from "react-router-dom"
 export default function Order(){
     return(
       <>
-      <section class="bg-gradient-to-r from-cyan-200 to-blue-100 dark:bg-gray-900">
+      <section class="bg-gradient-to-r from-cyan-400 to-blue-100 dark:bg-gray-900">
     <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
         <h2 class="mb-4 text-4xl tracking-tight font-extrabold text-center text-gray-900 dark:text-white">Order Form</h2>
         <p class="mb-8 lg:mb-16 font-light text-center text-gray-500 dark:text-gray-400 sm:text-xl">Fill Your Details To Order Food</p>
@@ -26,14 +27,16 @@ export default function Order(){
                 <textarea id="message" rows="6" class="block p-2.5 w-full text-sm text-gray-900 bg-gray-50 rounded-lg shadow-sm border border-gray-300 focus:ring-primary-500 focus:border-primary-500 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-primary-500 dark:focus:border-primary-500" placeholder="Address.."></textarea>
             </div>
             <div className="mt-10">
-             <button
-              type="submit"
+             <Link
+              to="/home"
               className="block w-full rounded-md bg-indigo-600 px-3.5 py-2.5 text-center text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
   >
            Submit.
-            </button>
+            </Link>
             </div>
-                   
+            <div className='text-sm font-medium text-gray-900 dark:text-white'>
+            Go to cart ? <Link to="/cart" className='text-blue-600 hover:underline'>Cart</Link>
+          </div>    
         </form>
         </div>
     
